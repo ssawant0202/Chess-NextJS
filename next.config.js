@@ -2,15 +2,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
 
-  async redirects() {
-    return [
-      {
-        source: "/api/:path*",
-        destination: '/',
-        permanent: true,
-      },
-    ]
-  },
 
   async headers() {
       return [

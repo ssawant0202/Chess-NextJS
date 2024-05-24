@@ -24,8 +24,10 @@
     "delay": "^6.0.0",
     "easymde": "^2.18.0",
     "eslint-config-next": "14.2.3",
+    "find-cache-dir": "^5.0.0",
     "is-wsl": "^3.1.0",
     "next": "14.2.3",
+    "next-on-netlify": "^3.0.1",
     "postcss": "8.4.38",
     "prisma": "^5.14.0",
     "react": "18.3.1",
@@ -41,6 +43,7 @@
     "zod": "^3.23.8"
   },
   "devDependencies": {
+    "@netlify/plugin-nextjs": "^5.3.1",
     "@tailwindcss/typography": "^0.5.13",
     "node-polyfill-webpack-plugin": "^3.0.0",
     "topography": "^1.0.6"
